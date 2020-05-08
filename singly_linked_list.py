@@ -31,3 +31,15 @@ class SinglyLinkedList:
         while node is not None:
             yield node
             node = node.next
+
+    def add_first(self, node):
+        node.next = self.head
+        self.head = node
+
+    def add_last(self, node):
+        if not self.head:
+            self.head = node
+            return
+        for current_node in self:
+            pass
+        current_node.next = node
