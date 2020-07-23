@@ -1,2 +1,2 @@
 # data-structures
-architectural, data, and design patterns written in python
+A collection of datastructures, architectural patterns, and design patterns written in python
